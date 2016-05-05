@@ -51,6 +51,11 @@ typedef struct{
 
 #define FPSIMD_MAGIC	0x46508001
 
+typedef struct{
+	__u64 a;
+	__u64 b;
+}___uint128_t;
+
 struct fpsimd_context {
 	struct _aarch64_ctx head;
 	__u32 fpsr;
