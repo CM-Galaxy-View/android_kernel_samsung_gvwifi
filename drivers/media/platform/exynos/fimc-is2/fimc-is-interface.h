@@ -23,7 +23,7 @@
 #include "fimc-is-video.h"
 #include "fimc-is-time.h"
 #include "include/fimc-is-cmd.h"
-#include "fimc-is-config.h"
+#include "include/fimc-is-config.h"
 
 /*#define TRACE_WORK*/
 /* cam_ctrl : 1
