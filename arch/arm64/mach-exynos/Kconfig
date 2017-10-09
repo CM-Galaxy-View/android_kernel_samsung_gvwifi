@@ -298,10 +298,6 @@ config MACH_UNIVERSAL7580
 	  Machine support for Samsung EXYNOS7580 machine with device tree enabled.
 	  Select this if a fdt blob is available for the EXYNOS7580 SoC based board.
 
-config MACH_GVWIFI
-	bool "SAMSUNG Galaxy View WIFI"
-	depends on SOC_EXYNOS7580
-
 config SEC_FACTORY
 	bool "SAMSUNG Factory build option"
 	default n
